@@ -9,4 +9,4 @@ upper=/opt/ext/upper
 workdir=/opt/ext/work
 mountpath=/opt/data
 
-mount -t overlay overlay -o lowerdir=${lower},upperdir=${upper},workdir=${workdir} /opt/data
+mount -t overlay overlay -o lowerdir=${lower},upperdir=${upper},workdir=${workdir} /vcow/data
